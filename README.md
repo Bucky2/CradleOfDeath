@@ -1,6 +1,8 @@
-# CradleOfDeath
-Cradle Of Death
+# CRADLE OF DEATH (VIDEOJUEGO)
 
+## [Enlace de Trello](https://trello.com/b/abu11nmM/juego-cradle-of-death)
+
+# LECCIONES
 ## [Lección 2-Basic Gameplay](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%202/Basic%20Gameplay)
 [- DESAFÍO 2](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%202/Basic%20Gameplay/Assets/Challenge%202)
 
