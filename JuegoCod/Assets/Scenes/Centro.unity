@@ -418,7 +418,7 @@ Animator:
   m_GameObject: {fileID: 301868250}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: db2ce2858abe7e2439337f36cb4c5fc2, type: 3}
-  m_Controller: {fileID: 9100000, guid: 039ac05b92cd93e44a728fa08b33fd62, type: 2}
+  m_Controller: {fileID: 9100000, guid: f78c2b73b4e24ab48ab4b4da2b22fda4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -442,7 +442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 301868250}
-  isMoving: 0
+  isMoving: 1
   horizontalMove: 0
   verticalMove: 0
 --- !u!136 &301868255
@@ -464,10 +464,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6359833
-  m_Height: 4.2774167
+  m_Radius: 0.4706124
+  m_Height: 4.03286
   m_Direction: 1
-  m_Center: {x: -0.072256155, y: 1.6387078, z: 0}
+  m_Center: {x: -0.0338207, y: 1.841473, z: 0.027330348}
 --- !u!54 &301868256
 Rigidbody:
   m_ObjectHideFlags: 0
