@@ -14,10 +14,14 @@
 [- VIDEO DE MUESTRA-DESAFÍO 2](https://drive.google.com/file/d/1-XTXOJ612JzUo4RM0yHADoewAALb3H5Z/view?usp=sharing)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Video%20desaf%C3%ADo%202.JPG" width="140%" height="400px">
 
-## [Lección 3-Sound and Effects](#)
-[- DESAFÍO 3](#)
+## [Lección 3-Sound and Effects](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%203/Sound%20and%20Effects)
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Lecci%C3%B3n%203.JPG" width="140%" height="400px">
 
-[- VIDEO DE MUESTRA-DESAFÍO 3](#)
+[- DESAFÍO 3](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%203/Sound%20and%20Effects/Assets/Challenge%203)
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Desaf%C3%ADo%203.JPG" width="140%" height="400px">
+
+[- VIDEO DE MUESTRA-DESAFÍO 3](https://drive.google.com/file/d/1_9hruWEmnCcwz7FMdBgSY5uFiJPTdO-w/view?usp=drive_link)
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Video%20desaf%C3%ADo%203.JPG" width="140%" height="400px">
 
 ## [Lección 4-Gameplay Mechanics](#)
 [- DESAFÍO 4](#)
