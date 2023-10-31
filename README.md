@@ -54,5 +54,5 @@ La pregunta es ¿Será El chava capaz de escapar de dolores junto a su novia Cla
 [- DESAFÍO 5](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%205/User%20Interface/Assets/Challenge%205)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Desaf%C3%ADo%205.png" width="140%" height="400px">
 
-[- VIDEO DE MUESTRA-DESAFÍO 5](https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Video%20desaf%C3%ADo%205.PNG)
+[- VIDEO DE MUESTRA-DESAFÍO 5](https://drive.google.com/file/d/1j066-nAc7abSE5ln5aiWBPjV-aO3_kiJ/view?usp=drive_link)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Video%20desaf%C3%ADo%205.PNG" width="140%" height="400px">
