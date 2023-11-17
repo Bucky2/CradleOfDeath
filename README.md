@@ -20,6 +20,10 @@ La pregunta es ¿Será El chava capaz de escapar de dolores junto a su novia Cla
 ## [Enlace de Trello](https://trello.com/b/abu11nmM/juego-cradle-of-death)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Trello.JPG" width="140%" height="400px">
 
+## [Enlace de Drive](https://drive.google.com/drive/folders/1mzsgmSedpPUusX91-yuKf1Iy5k8rY_FS)
+Se adjunta el enlace de Drive, en el cual se decidio subir el proyecto con los modelos 3D del videojuego, debido a las restricciones en la subida de archivos de GitHub.
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Drive%20Cradle.PNG" width="140%" height="400px">
+
 # LECCIONES
 ## [Lección 2-Basic Gameplay](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%202/Basic%20Gameplay)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Lecci%C3%B3n%202.JPG" width="140%" height="400px">
