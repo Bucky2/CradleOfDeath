@@ -10,7 +10,19 @@ public class Pistola : MonoBehaviour
 
     public bool isFiring = false;
     public float fireRate = 0.5f;
-   
+
+    // Referencia al script disparador
+    private disparador DisparadorScript;
+
+    // Asigna la referencia al script disparador en el inicio
+    void Start()
+    {
+        DisparadorScript = FindObjectOfType<disparador>();
+        if (DisparadorScript == null)
+        {
+            Debug.LogError("El script disparador no está asignado en Pistola.cs");
+        }
+    }
 
     // Update is called once per frame
     void Update()
@@ -42,10 +54,20 @@ public class Pistola : MonoBehaviour
 
     IEnumerator FiringWeapon()
     {
-        
+        if (DisparadorScript != null)
+        {
+            DisparadorScript.Disparar();
+        }
+        else
+        {
+            // Utiliza print en lugar de Debug.LogError para imprimir mensajes en la consola de Unity
+            print("El script disparador no está asignado en Pistola.cs");
+        }
+
         Player.GetComponent<Animator>().Play("fire");
         yield return new WaitForSeconds(fireRate);
         Player.GetComponent<Animator>().Play("aim");
         isFiring = false;
     }
+
 }
