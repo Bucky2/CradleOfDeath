@@ -10,6 +10,7 @@ public class MovesChava : MonoBehaviour
     public float moveSpeed = 3.8f;
     public float runSpeed = 15.1f;
     public float rotationSpeed = 150f;
+    public int puntos = 0;
 
     void Update()
     {
