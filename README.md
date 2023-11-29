@@ -34,6 +34,17 @@ Se evidencia la creación de la Build del videojuego para PC.
 Se adjunta el enlace del Videojuego, publicado en la plataforma de WebGL
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Juego%20Webgl.PNG" width="140%" height="400px">
 
+## [Enlace del APK del Videojuego](https://drive.google.com/drive/folders/1a4EqeuuCqGPAY3CUB9QMLTaFidAZhffz)
+Se adjunta el enlace del APK del Videojuego, asi como la evidencia de creación e instalación en un dispositivo móvil.
+
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%20Celular%204.PNG" width="140%" height="400px">
+
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%20Celular%201.jpg" width="50%" height="600px">
+
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%20Celular%202.jpg" width="140%" height="400px">
+
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%20Celular%203.jpg" width="140%" height="400px">
+
 # LECCIONES
 ## [Lección 2-Basic Gameplay](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%202/Basic%20Gameplay)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Lecci%C3%B3n%202.JPG" width="140%" height="400px">
