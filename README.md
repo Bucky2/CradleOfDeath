@@ -24,6 +24,16 @@ La pregunta es ¿Será El chava capaz de escapar de dolores junto a su novia Cla
 Se adjunta el enlace de Drive, en el cual se decidio subir el proyecto con los modelos 3D del videojuego, debido a las restricciones en la subida de archivos de GitHub.
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Drive%20Cradle.PNG" width="140%" height="400px">
 
+## Evidencia de Build del Videojuego en PC
+Se evidencia la creación de la Build del videojuego para PC.
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%201.PNG" width="140%" height="400px">
+
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Evidencia%202.PNG" width="140%" height="150px">
+
+## [Enlace del Videojuego en WebGL ](https://cristianbuclon.itch.io/cradleofdeath)
+Se adjunta el enlace del Videojuego, publicado en la plataforma de WebGL
+<img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Juego%20Webgl.PNG" width="140%" height="400px">
+
 # LECCIONES
 ## [Lección 2-Basic Gameplay](https://github.com/Bucky2/CradleOfDeath/tree/main/Lecciones/Lecci%C3%B3n%202/Basic%20Gameplay)
 <img src="https://github.com/leoKV/ImagenesCradleOfDeath/blob/main/Lecci%C3%B3n%202.JPG" width="140%" height="400px">
