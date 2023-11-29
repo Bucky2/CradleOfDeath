@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 public class enemy : MonoBehaviour
-
 {
     public GameObject Destination;
     NavMeshAgent Agent;
     public int vidas = 0;
     public MovesChava movesChava;
+    public Text puntosText; // Referencia al componente Text del objeto de texto en el Canvas
+    public int score = 0;
 
-    
     void Start()
     {
         Agent = GetComponent<NavMeshAgent>();
         movesChava = GameObject.Find("ChavaPlayer").GetComponent<MovesChava>();
-        
     }
 
     // Update is called once per frame
@@ -24,7 +24,6 @@ public class enemy : MonoBehaviour
     {
         Agent.SetDestination(Destination.transform.position);
     }
-
 
     private void OnCollisionEnter(Collision other)
     {
@@ -36,32 +35,41 @@ public class enemy : MonoBehaviour
 
             if (++vidas > 3)
             {
-                movesChava.puntos += 50;
+                 ControladorPuntos.Instance.SumarPuntos(50);
+                
                 Destroy(gameObject);
-                Debug.Log(" total de puntos " + movesChava.puntos);
+                
+                Debug.Log("Total de puntos: " + ControladorPuntos.Instance.puntosNivel);
+                
+                if (puntosText != null)
+                {
+                    puntosText.text = "SCORE: " + ControladorPuntos.Instance.puntosNivel.ToString();
+                }
             }
-
         }
         if (other.gameObject.CompareTag("Player"))
         {
             int playerHealthStatus = gameManager.Instance.GetCurrentHealthStatus();
 
-            // Verifica si el jugador está en el estado 2
+            // Verifica si el jugador estÃ¡ en el estado 2
             if (playerHealthStatus == 2)
             {
-                // Llama al método HandleGameOver en lugar de GetCurrentHealthStatus
-                gameManager.Instance.HandleGameOver();
+                other.gameObject.SetActive(false);
+
+                // Mostrar el Canvas de Game Over
+                if (gameManager.Instance.gameOverCanvas != null)
+                {
+                    gameManager.Instance.gameOverCanvas.gameObject.SetActive(true);
+                }
+
+                // Pausar el juego
+                Time.timeScale = 0f;
             }
             else
             {
-                // Si no, realiza la transición de estado normal
+                // Si no, realiza la transiciÃ³n de estado normal
                 StartCoroutine(gameManager.Instance.ChangePlayerHealthStatusOverTime());
             }
-
         }
-      
-
-
     }
-
 }

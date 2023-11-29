@@ -7,6 +7,8 @@ public class gameManager : MonoBehaviour
 {
     public static gameManager Instance;
 
+     public Canvas gameOverCanvas;
+
     public Status hud;
 
     private int currentHealthStatus = 0; // Asumiendo que currentHealthStatus es de tipo int
@@ -16,18 +18,18 @@ public class gameManager : MonoBehaviour
         Instance = this;
     }
 
-    // Cambié el nombre de la variable para evitar confusión
+    // Cambiï¿½ el nombre de la variable para evitar confusiï¿½n
 
     public void HandleGameOver()
     {
-        // Agrega aquí cualquier código que desees ejecutar cuando se provoque el Game Over
+        // Agrega aquï¿½ cualquier cï¿½digo que desees ejecutar cuando se provoque el Game Over
         Debug.Log("Game Over");
-        // Por ejemplo, podrías cargar una escena de Game Over o reiniciar el juego
+        // Por ejemplo, podrï¿½as cargar una escena de Game Over o reiniciar el juego
         // SceneManager.LoadScene("GameOverScene");
     }
 
 
-    // Método para cambiar el estado del jugador con interpolación
+    // Mï¿½todo para cambiar el estado del jugador con interpolaciï¿½n
     public IEnumerator ChangePlayerHealthStatusOverTime()
     {
         float elapsedTime = 0f;
@@ -48,7 +50,7 @@ public class gameManager : MonoBehaviour
         currentHealthStatus = targetHealthStatus;
         hud.UpdateHealthStatus(currentHealthStatus);
 
-        // Actualiza nextHealthStatus después de completar la transición
+        // Actualiza nextHealthStatus despuï¿½s de completar la transiciï¿½n
         nextHealthStatus = (nextHealthStatus + 1) % 3;
     }
 
